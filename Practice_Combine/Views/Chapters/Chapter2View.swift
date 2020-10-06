@@ -18,6 +18,7 @@ struct Chapter2View: View {
         }
         .navigationTitle(Text("Chapter 2"))
         .onAppear(perform: {
+            print("***** Chapter 2 *****")
             if viewModel.loadLastAction {
                 viewModel.getLastAction()()
             }

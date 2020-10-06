@@ -75,7 +75,7 @@ class Chapter3ViewModel: ObservableObject {
             subscription.cancel()
         }),
         
-        .init(title: "trymap", action: {
+        .init(title: "tryMap", action: {
             _ = Just("Dictionary name that does not exist")
                 .tryMap { try FileManager.default.contentsOfDirectory(atPath: $0) }
                 .sink(receiveCompletion: { print($0) },
