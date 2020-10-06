@@ -14,6 +14,8 @@
 		F3D00ED4252BA08E00118925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D00ED2252BA08E00118925 /* LaunchScreen.storyboard */; };
 		F3D00EDE252BA0AC00118925 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D00EDD252BA0AC00118925 /* HomeView.swift */; };
 		F3D00EE3252BA15800118925 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D00EE2252BA15800118925 /* HomeViewModel.swift */; };
+		F3E29671252C965B000457DA /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E29670252C965B000457DA /* Coordinate.swift */; };
+		F3E29674252C9687000457DA /* Chatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E29673252C9687000457DA /* Chatter.swift */; };
 		F3E79EAB252BA356006CCA40 /* Chapter2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E79EAA252BA356006CCA40 /* Chapter2View.swift */; };
 		F3E79EAF252BA928006CCA40 /* Chapter2ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E79EAE252BA928006CCA40 /* Chapter2ViewModel.swift */; };
 		F3E79EB4252BAACC006CCA40 /* ChapterAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E79EB3252BAACC006CCA40 /* ChapterAction.swift */; };
@@ -32,6 +34,8 @@
 		F3D00ED5252BA08E00118925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3D00EDD252BA0AC00118925 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F3D00EE2252BA15800118925 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F3E29670252C965B000457DA /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		F3E29673252C9687000457DA /* Chatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chatter.swift; sourceTree = "<group>"; };
 		F3E79EAA252BA356006CCA40 /* Chapter2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter2View.swift; sourceTree = "<group>"; };
 		F3E79EAE252BA928006CCA40 /* Chapter2ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter2ViewModel.swift; sourceTree = "<group>"; };
 		F3E79EB3252BAACC006CCA40 /* ChapterAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterAction.swift; sourceTree = "<group>"; };
@@ -132,6 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				F3E79EB3252BAACC006CCA40 /* ChapterAction.swift */,
+				F3E29670252C965B000457DA /* Coordinate.swift */,
+				F3E29673252C9687000457DA /* Chatter.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -211,11 +217,13 @@
 				F3E79EAF252BA928006CCA40 /* Chapter2ViewModel.swift in Sources */,
 				F3E79EB7252BAC57006CCA40 /* BaseChapterViewModel.swift in Sources */,
 				F3D00EC8252BA08B00118925 /* AppDelegate.swift in Sources */,
+				F3E29671252C965B000457DA /* Coordinate.swift in Sources */,
 				F3D00ECA252BA08B00118925 /* SceneDelegate.swift in Sources */,
 				F3F982BA252BBA4B006D756C /* Chapter3ViewModel.swift in Sources */,
 				F3F982B7252BBA29006D756C /* Chapter3View.swift in Sources */,
 				F3D00EE3252BA15800118925 /* HomeViewModel.swift in Sources */,
 				F3E79EAB252BA356006CCA40 /* Chapter2View.swift in Sources */,
+				F3E29674252C9687000457DA /* Chatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
