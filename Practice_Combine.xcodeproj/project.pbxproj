@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3BC50C325317DB200D09022 /* Chapter6View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BC50C225317DB200D09022 /* Chapter6View.swift */; };
+		F3BC50C625317DDD00D09022 /* Chapter6ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BC50C525317DDD00D09022 /* Chapter6ViewModel.swift */; };
+		F3BC50C925318D8E00D09022 /* typingHelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BC50C825318D8E00D09022 /* typingHelloWorld.swift */; };
 		F3D00EC8252BA08B00118925 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D00EC7252BA08B00118925 /* AppDelegate.swift */; };
 		F3D00ECA252BA08B00118925 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D00EC9252BA08B00118925 /* SceneDelegate.swift */; };
 		F3D00ECE252BA08E00118925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3D00ECD252BA08E00118925 /* Assets.xcassets */; };
@@ -29,6 +32,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F3BC50C225317DB200D09022 /* Chapter6View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter6View.swift; sourceTree = "<group>"; };
+		F3BC50C525317DDD00D09022 /* Chapter6ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter6ViewModel.swift; sourceTree = "<group>"; };
+		F3BC50C825318D8E00D09022 /* typingHelloWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typingHelloWorld.swift; sourceTree = "<group>"; };
 		F3D00EC4252BA08B00118925 /* Practice_Combine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice_Combine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D00EC7252BA08B00118925 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3D00EC9252BA08B00118925 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +135,7 @@
 				F3F982B6252BBA29006D756C /* Chapter3View.swift */,
 				F3E29676252CAF70000457DA /* Chapter4View.swift */,
 				F3E2967C252CB6C0000457DA /* Chapter5View.swift */,
+				F3BC50C225317DB200D09022 /* Chapter6View.swift */,
 			);
 			path = Chapters;
 			sourceTree = "<group>";
@@ -140,6 +147,7 @@
 				F3F982B9252BBA4B006D756C /* Chapter3ViewModel.swift */,
 				F3E29679252CAF79000457DA /* Chapter4ViewModel.swift */,
 				F3E2967F252CB6D8000457DA /* Chapter5ViewModel.swift */,
+				F3BC50C525317DDD00D09022 /* Chapter6ViewModel.swift */,
 			);
 			path = Chapters;
 			sourceTree = "<group>";
@@ -150,6 +158,7 @@
 				F3E79EB3252BAACC006CCA40 /* ChapterAction.swift */,
 				F3E29670252C965B000457DA /* Coordinate.swift */,
 				F3E29673252C9687000457DA /* Chatter.swift */,
+				F3BC50C825318D8E00D09022 /* typingHelloWorld.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -227,10 +236,12 @@
 				F3D00EDE252BA0AC00118925 /* HomeView.swift in Sources */,
 				F3E79EB4252BAACC006CCA40 /* ChapterAction.swift in Sources */,
 				F3E2967D252CB6C0000457DA /* Chapter5View.swift in Sources */,
+				F3BC50C625317DDD00D09022 /* Chapter6ViewModel.swift in Sources */,
 				F3E29677252CAF70000457DA /* Chapter4View.swift in Sources */,
 				F3E79EAF252BA928006CCA40 /* Chapter2ViewModel.swift in Sources */,
 				F3E79EB7252BAC57006CCA40 /* BaseChapterViewModel.swift in Sources */,
 				F3D00EC8252BA08B00118925 /* AppDelegate.swift in Sources */,
+				F3BC50C925318D8E00D09022 /* typingHelloWorld.swift in Sources */,
 				F3E29671252C965B000457DA /* Coordinate.swift in Sources */,
 				F3D00ECA252BA08B00118925 /* SceneDelegate.swift in Sources */,
 				F3F982BA252BBA4B006D756C /* Chapter3ViewModel.swift in Sources */,
@@ -240,6 +251,7 @@
 				F3E79EAB252BA356006CCA40 /* Chapter2View.swift in Sources */,
 				F3E29674252C9687000457DA /* Chatter.swift in Sources */,
 				F3E2967A252CAF79000457DA /* Chapter4ViewModel.swift in Sources */,
+				F3BC50C325317DB200D09022 /* Chapter6View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

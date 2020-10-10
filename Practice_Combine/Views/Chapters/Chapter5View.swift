@@ -12,7 +12,7 @@ struct Chapter5View: View {
     
     var body: some View {
         List {
-            ForEach(viewModel.actions.reversed(), id: \.title) { chapterAction in
+            ForEach(viewModel.actions, id: \.title) { chapterAction in
                 Button(chapterAction.title, action: chapterAction.action)
             }
         }
