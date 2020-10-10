@@ -176,6 +176,7 @@ class Chapter3ViewModel: ObservableObject {
         }),
         
         // http://reactivex.io/documentation/operators/scan.html
+        // scan과 reduce의 차이 : https://stackoverflow.com/questions/45350806/whats-difference-between-reduce-and-scan
         .init(title: "scan", action: {
             var dailyGainLoss: Int { .random(in: -10...10) }
             
