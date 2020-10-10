@@ -11,7 +11,7 @@ import Combine
 final class HomeViewModel: ObservableObject {
     let pushToLastChapter: Bool = true
     
-    let listOfChapters: [Int] = [2, 3, 4, 5, 6, 7]
+    let listOfChapters: [Int] = [2, 3, 4, 5, 6, 7, 8]
     
     func getView(at index: Int) -> some View {
         switch index {
@@ -27,6 +27,8 @@ final class HomeViewModel: ObservableObject {
             return AnyView(Chapter6View())
         case 7:
             return AnyView(Chapter7View())
+        case 8:
+            return AnyView(Chapter8View())
         default:
             return AnyView(EmptyView())
         }

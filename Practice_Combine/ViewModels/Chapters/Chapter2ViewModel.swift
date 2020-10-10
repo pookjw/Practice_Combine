@@ -105,6 +105,7 @@ final class Chapter2ViewModel: ObservableObject {
             publisher.subscribe(subscriber)
         }),
         
+        // https://heckj.github.io/swiftui-notes/#reference-future
         .init(title: "Future", waitAction: { semaphore in
             var subscriptions = Set<AnyCancellable>()
             
