@@ -79,7 +79,7 @@ class Chapter9ViewModel: ObservableObject {
         
         /*
          share()는 여러개를 subscribe를 하면 subscribe를 모두 마치기 전에 이벤트를 다 날려버리는 단점이 있으므로
-         multicase()를 통해 subscribe가 다 끝날 때 까지 기다릴 수 있음. 준비가 끝나면 .connect()를 써서 이벤트를 받아올 수 있다.
+         multicast()를 통해 subscribe가 다 끝날 때 까지 기다릴 수 있음. 준비가 끝나면 .connect()를 써서 이벤트를 받아올 수 있다.
          */
         .init(title: "multicast", action: {
             let url = URL(string: "https://raywenderlich.com")!

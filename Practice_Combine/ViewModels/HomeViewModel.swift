@@ -13,7 +13,7 @@ var subscriptions = Set<AnyCancellable>()
 final class HomeViewModel: ObservableObject {
     let pushToLastChapter: Bool = true
     
-    let listOfChapters: [Int] = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    let listOfChapters: [Int] = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
     
     func getView(at index: Int) -> some View {
         switch index {
@@ -39,6 +39,8 @@ final class HomeViewModel: ObservableObject {
             return AnyView(Chapter11View())
         case 12:
             return AnyView(Chapter12View())
+        case 13:
+            return AnyView(Chapter13View())
         default:
             return AnyView(EmptyView())
         }
