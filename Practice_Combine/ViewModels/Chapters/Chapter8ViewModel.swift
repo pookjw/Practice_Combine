@@ -68,6 +68,7 @@ class Chapter8ViewModel: ObservableObject {
                 .store(in: &subscriptions)
         }),
         
+        // Chapter 12의 publisher(for:)도 볼 것
         .init(title: "@Published", action: {
             class TestClass: ObservableObject {
                 @Published var integer: Int = 0
