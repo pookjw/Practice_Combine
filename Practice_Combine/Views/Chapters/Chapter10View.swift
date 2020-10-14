@@ -1,14 +1,14 @@
 //
-//  Chapter9View.swift
+//  Chapter10View.swift
 //  Practice_Combine
 //
-//  Created by Jinwoo Kim on 10/6/20.
+//  Created by Jinwoo Kim on 10/14/20.
 //
 
 import SwiftUI
 
-struct Chapter9View: View {
-    @ObservedObject var viewModel: Chapter9ViewModel = .init()
+struct Chapter10View: View {
+    @ObservedObject var viewModel: Chapter10ViewModel = .init()
     
     var body: some View {
         List {
@@ -16,9 +16,9 @@ struct Chapter9View: View {
                 Button(chapterAction.title, action: chapterAction.action)
             }
         }
-        .navigationTitle(Text("Chapter 9"))
+        .navigationTitle(Text("Chapter 10"))
         .onAppear(perform: {
-            print("***** Chapter 9 *****")
+            print("***** Chapter 10 *****")
             if viewModel.loadLastAction {
                 viewModel.getLastAction()()
             }
@@ -26,8 +26,8 @@ struct Chapter9View: View {
     }
 }
 
-struct Chapter9View_Previews: PreviewProvider {
+struct Chapter10View_Previews: PreviewProvider {
     static var previews: some View {
-        Chapter9View()
+        Chapter10View()
     }
 }

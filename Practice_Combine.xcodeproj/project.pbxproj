@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3412AFC253709E3006CCF67 /* Chapter10ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3412AFB253709E3006CCF67 /* Chapter10ViewModel.swift */; };
+		F3412B0325370A16006CCF67 /* Chapter10View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3412B0225370A16006CCF67 /* Chapter10View.swift */; };
 		F3BC50C325317DB200D09022 /* Chapter6View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BC50C225317DB200D09022 /* Chapter6View.swift */; };
 		F3BC50C625317DDD00D09022 /* Chapter6ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BC50C525317DDD00D09022 /* Chapter6ViewModel.swift */; };
 		F3BC50C925318D8E00D09022 /* typingHelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BC50C825318D8E00D09022 /* typingHelloWorld.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F3412AFB253709E3006CCF67 /* Chapter10ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter10ViewModel.swift; sourceTree = "<group>"; };
+		F3412B0225370A16006CCF67 /* Chapter10View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter10View.swift; sourceTree = "<group>"; };
 		F3BC50C225317DB200D09022 /* Chapter6View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter6View.swift; sourceTree = "<group>"; };
 		F3BC50C525317DDD00D09022 /* Chapter6ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter6ViewModel.swift; sourceTree = "<group>"; };
 		F3BC50C825318D8E00D09022 /* typingHelloWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typingHelloWorld.swift; sourceTree = "<group>"; };
@@ -153,6 +157,7 @@
 				F3BC50CB253194A800D09022 /* Chapter7View.swift */,
 				F3BC50D32531B7C800D09022 /* Chapter8View.swift */,
 				F3BC50DC2531D86F00D09022 /* Chapter9View.swift */,
+				F3412B0225370A16006CCF67 /* Chapter10View.swift */,
 			);
 			path = Chapters;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 				F3BC50CE253194D400D09022 /* Chapter7ViewModel.swift */,
 				F3BC50D62531B7FD00D09022 /* Chapter8ViewModel.swift */,
 				F3BC50DF2531D88D00D09022 /* Chapter9ViewModel.swift */,
+				F3412AFB253709E3006CCF67 /* Chapter10ViewModel.swift */,
 			);
 			path = Chapters;
 			sourceTree = "<group>";
@@ -275,6 +281,8 @@
 				F3BC50CC253194A800D09022 /* Chapter7View.swift in Sources */,
 				F3D00EE3252BA15800118925 /* HomeViewModel.swift in Sources */,
 				F3E79EAB252BA356006CCA40 /* Chapter2View.swift in Sources */,
+				F3412B0325370A16006CCF67 /* Chapter10View.swift in Sources */,
+				F3412AFC253709E3006CCF67 /* Chapter10ViewModel.swift in Sources */,
 				F3BC50CF253194D400D09022 /* Chapter7ViewModel.swift in Sources */,
 				F3BC50E02531D88D00D09022 /* Chapter9ViewModel.swift in Sources */,
 				F3E29674252C9687000457DA /* Chatter.swift in Sources */,

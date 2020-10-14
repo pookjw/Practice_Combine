@@ -8,6 +8,8 @@
 import Foundation
 import Combine
 
+var subscriptions = Set<AnyCancellable>()
+
 class BaseChapterViewModel: ObservableObject {
     let loadLastAction: Bool = true
     
