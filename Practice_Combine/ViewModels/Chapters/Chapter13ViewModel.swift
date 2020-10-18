@@ -91,6 +91,32 @@ class Chapter13ViewModel: ObservableObject {
                     )
                     .store(in: &subscriptions)
             }
+        }),
+        
+        .init(title: "multicast", action: {
+            let subject = PassthroughSubject<Data, URLError>()
+            
+            let multicated = URLSession
+                .shared
+                .dataTaskPublisher(for: URL(string: "https://www.raywenderlich.com")!)
+                .map(\.data)
+                .print("shared")
+                .multicast(subject: subject)
+                
+            let subscription1 = multicated
+                .sink(receiveCompletion: { _ in },
+                      receiveValue: { print("subscription1 received: '\($0)'") })
+                .store(in: &subscriptions)
+            
+            let subscription2 = multicated
+                .sink(receiveCompletion: { _ in },
+                      receiveValue: { print("subscription2 received: '\($0)'") })
+                .store(in: &subscriptions)
+            
+            multicated
+                .connect()
+                .store(in: &subscriptions)
+            subject.send(Data())
         })
     ]
     
